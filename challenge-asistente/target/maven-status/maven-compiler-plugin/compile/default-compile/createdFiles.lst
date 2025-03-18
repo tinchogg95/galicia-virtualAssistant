@@ -1,0 +1,9 @@
+galicia\challenge\virtualAssistant\config\AppConfig$1.class
+galicia\challenge\virtualAssistant\model\DialogflowResponse.class
+galicia\challenge\virtualAssistant\service\AssistantService.class
+galicia\challenge\virtualAssistant\model\DialogflowRequest$QueryResult.class
+galicia\challenge\virtualAssistant\config\SwaggerConfig.class
+galicia\challenge\virtualAssistant\controller\AssistantController.class
+galicia\challenge\virtualAssistant\VirtualAssistantApplication.class
+galicia\challenge\virtualAssistant\model\DialogflowRequest.class
+galicia\challenge\virtualAssistant\config\AppConfig.class

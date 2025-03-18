@@ -1,0 +1,32 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar carpetas de compilación
+target/
+build/
+dist/
+out/
+bin/
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar archivos de IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignorar archivos de log
+*.log
+logs/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db"challenge-asistente/target/classes/config.json" 
