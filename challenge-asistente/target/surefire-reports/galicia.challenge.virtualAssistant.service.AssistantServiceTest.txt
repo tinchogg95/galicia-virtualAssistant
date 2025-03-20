@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: galicia.challenge.virtualAssistant.service.AssistantServiceTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in galicia.challenge.virtualAssistant.service.AssistantServiceTest
+Tests run: 7, Failures: 2, Errors: 5, Skipped: 0, Time elapsed: 2.626 s <<< FAILURE! - in galicia.challenge.virtualAssistant.service.AssistantServiceTest
+testHandleQuestion_Error  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.NullPointerException
+	at galicia.challenge.virtualAssistant.service.AssistantServiceTest.testHandleQuestion_Error(AssistantServiceTest.java:70)
+
+testHandleQuestion_DollarOfficial  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException
+	at galicia.challenge.virtualAssistant.service.AssistantServiceTest.testHandleQuestion_DollarOfficial(AssistantServiceTest.java:58)
+
+testHandleQuestion_Weather  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <El clima está soleado.> but was: <null>
+	at galicia.challenge.virtualAssistant.service.AssistantServiceTest.testHandleQuestion_Weather(AssistantServiceTest.java:47)
+
+testHandleQuestion_DollarOfficial_Success  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at galicia.challenge.virtualAssistant.service.AssistantServiceTest.testHandleQuestion_DollarOfficial_Success(AssistantServiceTest.java:76)
+
+testHandleQuestion_DollarBlue_Success  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at galicia.challenge.virtualAssistant.service.AssistantServiceTest.testHandleQuestion_DollarBlue_Success(AssistantServiceTest.java:82)
+
+testHandleQuestion_Time  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <La hora actual es: 2025-03-18 00:06:28> but was: <null>
+	at galicia.challenge.virtualAssistant.service.AssistantServiceTest.testHandleQuestion_Time(AssistantServiceTest.java:53)
+
+testHandleQuestion_DollarBlue  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at galicia.challenge.virtualAssistant.service.AssistantServiceTest.testHandleQuestion_DollarBlue(AssistantServiceTest.java:64)
+

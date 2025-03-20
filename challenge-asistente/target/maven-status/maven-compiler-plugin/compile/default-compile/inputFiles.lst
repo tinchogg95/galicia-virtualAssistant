@@ -1,6 +1,7 @@
 C:\dev\projects\virtualAssistant\challenge-asistente\src\main\java\galicia\challenge\virtualAssistant\config\AppConfig.java
 C:\dev\projects\virtualAssistant\challenge-asistente\src\main\java\galicia\challenge\virtualAssistant\service\AssistantService.java
 C:\dev\projects\virtualAssistant\challenge-asistente\src\main\java\galicia\challenge\virtualAssistant\service\AssistantConstants.java
+C:\dev\projects\virtualAssistant\challenge-asistente\src\main\java\galicia\challenge\virtualAssistant\service\DialogflowService.java
 C:\dev\projects\virtualAssistant\challenge-asistente\src\main\java\galicia\challenge\virtualAssistant\config\SwaggerConfig.java
 C:\dev\projects\virtualAssistant\challenge-asistente\src\main\java\galicia\challenge\virtualAssistant\model\DialogflowRequest.java
 C:\dev\projects\virtualAssistant\challenge-asistente\src\main\java\galicia\challenge\virtualAssistant\model\DialogflowResponse.java
